@@ -18,15 +18,11 @@ It is a web-application for the encoding, decoding & hacking Vigenere cipher. Re
 
 Source code for those steps right here: ["../master/logic/"](https://github.com/siggb/HackingVigenereCipher/tree/master/logic).
 
-Step 1: ["Encoding"](https://github.com/siggb/HackingVigenereCipher/blob/master/static/images/img1.png)
-
-Step 2: ["Statistical analysing and hacking"](https://github.com/siggb/HackingVigenereCipher/blob/master/static/images/img2.png)
-
-Step 3: ["Creating Markov chain"](https://github.com/siggb/HackingVigenereCipher/blob/master/static/images/img3.png)
-
-Step 4: ["Providing information for Markov chain"](https://github.com/siggb/HackingVigenereCipher/blob/master/static/images/img4.png)
-
-Step 5: ["Result of analysing"](https://github.com/siggb/HackingVigenereCipher/blob/master/static/images/img5.png) by using trained chain with ["detected key"](https://github.com/siggb/HackingVigenereCipher/blob/master/static/images/img6.png)
+* Step 1: ["Encoding"](https://github.com/siggb/HackingVigenereCipher/blob/master/static/images/img1.png)
+* Step 2: ["Statistical analysing and hacking"](https://github.com/siggb/HackingVigenereCipher/blob/master/static/images/img2.png)
+* Step 3: ["Creating Markov chain"](https://github.com/siggb/HackingVigenereCipher/blob/master/static/images/img3.png)
+* Step 4: ["Providing information for Markov chain"](https://github.com/siggb/HackingVigenereCipher/blob/master/static/images/img4.png)
+* Step 5: ["Result of analysing"](https://github.com/siggb/HackingVigenereCipher/blob/master/static/images/img5.png) by using trained chain with ["detected key"](https://github.com/siggb/HackingVigenereCipher/blob/master/static/images/img6.png)
 
 ### License
 
