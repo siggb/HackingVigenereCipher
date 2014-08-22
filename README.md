@@ -16,6 +16,8 @@ It is a web-application for the encoding, decoding & hacking Vigenere cipher. Re
 
 ### Example Usage
 
+Source code for those steps right here: ["../master/logic/"](https://github.com/siggb/HackingVigenereCipher/tree/master/logic)
+
 Step 1: ["Encoding"](https://github.com/siggb/HackingVigenereCipher/blob/master/static/images/img1.png)
 
 Step 2: ["Statistical analysing and hacking"](https://github.com/siggb/HackingVigenereCipher/blob/master/static/images/img2.png)
