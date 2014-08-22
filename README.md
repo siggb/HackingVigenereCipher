@@ -24,9 +24,7 @@ Step 3: ["Creating Markov chain"](https://github.com/siggb/HackingVigenereCipher
 
 Step 4: ["Providing Information for Markov chain"](https://github.com/siggb/HackingVigenereCipher/blob/master/static/images/img4.png)
 
-Step 5: ["Result of analysing by using trained chain"](https://github.com/siggb/HackingVigenereCipher/blob/master/static/images/img5.png)
-
-Step 5: ["Result"](https://github.com/siggb/HackingVigenereCipher/blob/master/static/images/img5.png)
+Step 5: ["Result of analysing"](https://github.com/siggb/HackingVigenereCipher/blob/master/static/images/img5.png) by using trained chain with ["detected key"](https://github.com/siggb/HackingVigenereCipher/blob/master/static/images/img5.png)
 
 ### License
 
