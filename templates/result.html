@@ -1,0 +1,24 @@
+{% extends "base_menu.html" %}
+
+{##}
+{#  Шаблон для главной страницы #}
+{##}
+
+{# Заголовок страницы HTML #}
+{% block head_title %}Результат {{ type }}{% endblock %}
+
+{# Остальная страница HTML #}
+{% block body_content_trunk %}
+    <div class="main_div_center_no_scroll">
+        <div class="creating_topic">
+            <h1 class="title">Результат {{ type }}</h1>
+            <div class="content">
+                <form action="/ecnryption_final/" method="post">
+                    <p class="field_title">
+                        <textarea id="message" class="big" name="message">{{ message }}</textarea><br>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}

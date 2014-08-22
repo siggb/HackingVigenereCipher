@@ -1,0 +1,106 @@
+/*
+ *  ����� ��� ��������� ������� (���� ����� ������ - ���� ����, ����������� - ���� �����)
+ */
+ .creating_topic {
+    margin: 35px 0 35px 0;
+    position: relative;
+}
+
+.creating_topic .title {
+    display: block;
+    border-bottom: 1px solid rgb(36, 36, 36);
+    padding-bottom: 6px;
+    font-style: italic;
+    font-size: 1.8em;
+    line-height: 1.3em;
+    margin: 0px;
+	padding-left: 15px;
+}
+
+.creating_topic .title  i {
+	float: right;
+	font-size: 18px;
+	color: #242424;
+}
+
+.creating_topic .info-wrap {
+    padding: 15px 0 15px 15px;
+	position: relative;
+	font-style: italic;
+	border-bottom: 1px solid rgb(36, 36, 36);
+	display: block;
+}
+
+.creating_topic .content {
+    font-size: 1.1em;
+    line-height: 1.3em;
+    color: rgb(36, 36, 36);
+    margin-top: 10px;
+    padding-left: 15px;
+    overflow: hidden;
+}
+
+.creating_topic .content .field_title{
+    padding: 5px 0 5px 0;
+}
+
+.creating_topic .content .field_title .w100p {
+    width: 99%;
+	height: 25px;
+	margin-top: 5px;
+}
+
+.creating_topic .content .field_title .w70p {
+    width: 300px;
+	height: 25px;
+	margin-top: 5px;
+}
+
+.creating_topic .content .field_title .w50p {
+    width: 150px;
+	height: 30px;
+	margin-top: 5px;
+}
+
+.creating_topic .content .field_title .w25p {
+    width: 50px;
+	height: 25px;
+    margin: 20px 10px 20px 10px;
+}
+
+.creating_topic .content .field_title .radio {
+    position: relative;
+	top: 2px;
+}
+
+.creating_topic .content .field_title .form_note {
+    font-size: 11px;
+    color: rgb(170, 170, 170);
+}
+
+.creating_topic .content .field_title textarea.small {
+    width: 99%;
+    height: 200px;
+    margin-bottom: 5px;
+	resize: none;
+}
+
+.creating_topic .content .field_title textarea.medium {
+    width: 99%;
+    height: 450px;
+    margin-bottom: 5px;
+	resize: none;
+}
+
+.creating_topic .content .field_title textarea.big {
+    width: 99%;
+    height: 650px;
+    margin-bottom: 5px;
+	resize: none;
+}
+
+.creating_topic .content .field_title .w300p {
+    width: 300px;
+	height: 25px;
+	margin-top: 5px;
+}

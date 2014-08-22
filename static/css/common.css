@@ -1,0 +1,228 @@
+/*
+ * Через точку - класс (для часто повторяющихся стилей элементов)
+ * Через шарп - идэшник (для джава-скриптов чаще, для уникальных элементов)
+ */
+
+/*
+ * Убираем стандартные отступы браузеров
+ */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	position: relative;
+	background:#fff;
+	height: 100%;
+	min-height: 100%;
+	width: 100%;
+}
+
+.clear{
+	clear:both;
+	position:relative;
+}
+
+/*
+ * Прямоугольник для авторизации
+ */
+.auth_div {
+    margin: 200px auto 5px;
+    width: 400px;
+    height: 250px;
+    background: #E0E0E0;
+    border: solid 1px black;
+    text-align: center;
+}
+
+.auth_div p {
+    padding: 10px 0 10px 0;
+}
+
+/*
+ * Меню сайта - темная тема
+ */
+.menu_black, .menu li ul{
+    list-style: none outside none;
+    margin: 0px 0 0;
+    padding: 0;
+    text-align: center;
+}
+.menu_black > li{
+    float:left;
+    background: #242424;
+    text-align: center;
+    padding: 7px 15px;
+    margin-left: 1px;
+    cursor: pointer;
+}
+.menu_black > li ul{
+    display:none;
+    position:absolute;
+    text-align: left;
+    z-index:100;
+    background-color:#393939;
+    width:200px;
+    margin-top:7px;
+}
+.menu_black > li > ul {
+    font-size: 80%;
+    margin-left: -15px;
+}
+.menu_black > li:hover > ul{display:block;}
+.menu_black > li:hover{
+    background: #7d7e7d;
+}
+.menu_black > li li{
+    padding:4px 0 4px 8px;
+}
+.menu_black > li > ul > li.dir{
+    background:url('../images/arrow.png') 96% center no-repeat;
+}
+.menu_black > li > ul > li:hover > ul{display:block;}
+.menu_black > li > ul  li:hover{
+    background-color:#646464;
+}
+.menu_black > li > ul > li > ul{
+    margin-left:190px;
+    margin-top:-17px;
+    width:220px;
+}
+.menu_black > li a{
+    text-decoration: none;
+    color: #D1D1D1;
+    display:block;
+}
+
+/*
+ * Меню сайта - светлая тема
+ */
+.menu_orange, .menu li ul{
+    list-style: none outside none;
+    margin: 0px 0 0;
+    padding: 0;
+    text-align: center;
+}
+.menu_orange > li{
+    float:left;
+    background: #F5F5DC;
+    text-align: center;
+    padding: 7px 15px;
+    margin-left: 1px;
+    cursor: pointer;
+}
+.menu_orange > li ul{
+    display:none;
+    position:absolute;
+    text-align: left;
+    z-index:100;
+    /* Цвет фона подменю */
+    background-color:#F5F5DC;
+    width:200px;
+    margin-top:7px;
+}
+.menu_orange > li > ul{
+    font-size: 80%;
+    margin-left: -15px;
+}
+.menu_orange > li:hover > ul{display:block;}
+.menu_orange > li:hover{
+    /* Цвет элемента главного меню при наведении  */
+    background: #FFD700;
+}
+.menu_orange > li li{
+    padding:4px 0 4px 8px;
+}
+.menu_orange > li > ul > li.dir{
+    background:url('../images/arrow.png') 96% center no-repeat;
+}
+.menu_orange > li > ul > li:hover > ul{display:block;}
+.menu_orange > li > ul  li:hover{
+    /* Цвет фона подменю при выделении */
+    background-color:#FFD700;
+}
+.menu_orange > li > ul > li > ul{
+    margin-left:190px;
+    margin-top:-17px;
+    width:220px;
+}
+.menu_orange > li a{
+    text-decoration: none;
+    color: #242424;
+    display:block;
+}
+
+/*
+ * Контейнер для страницы
+ */
+.trunk_container {
+    width: 100%;
+    height: 100%;
+}
+
+/*
+ * Стили для хэдера
+ */
+.trunk_header_position {
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    height: 65px;
+    background: #E0E0E0; /* Фиксированный цвет фона */
+}
+
+.trunk_header {
+    width: 670px;
+    padding-top: 15px;
+    margin: 0px auto; /* сверху снизу 0, по ширине - по центру*/
+    top: 20px;
+    height: 40px;
+    background: none;
+}
+
+.trunk_header li{
+    list-style: none;
+}
+
+/*
+ * Стили для центральной части
+ */
+.trunk_body_position {
+    left: 0px;
+    top: 65px;
+    right: 0px;
+    bottom: 65px;
+}
+
+.trunk_body_black {
+    top: 0px;
+    height: 100%;
+    background: #FFFFFF;
+}
+
+/*
+ * Стили для футера
+ */
+.trunk_footer_position {
+	margin-top:10px;
+    height: 50px;
+    background: #E0E0E0; /* Фиксированный цвет фона */
+}
+
+.trunk_footer {
+    padding-top: 15px;
+}
+
+.trunk_footer h4 {
+    text-align: center;
+}

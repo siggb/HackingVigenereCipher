@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{# Тело страницы HTML #}
+{% block body_content %}
+
+    <div class="trunk_container">
+        {# ===================================  Header  =================================== #}
+        <div class="trunk_header_position">
+            <div class="trunk_header">
+                <ul class="menu_black">
+                    <li><a href="/">Формирование шифра Виженера</a></li>
+                    <li><a href="/decryption/">Взлом шифра Виженера</a></li>
+                    <li><a href="/markov/">Анализ цепями Маркова</a></li>
+                </ul>
+            </div>
+        </div>
+
+        {# ===================================  Body    =================================== #}
+        <div class="trunk_body_position">
+            <div class="trunk_body_black">
+                {% block body_content_trunk %}{% endblock %}
+            </div>
+        </div>
+
+        {# ===================================  Footer  =================================== #}
+        <div class="trunk_footer_position">
+            <div class="trunk_footer">
+                <h4>designed by sig &#169 2013</h4>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

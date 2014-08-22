@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 //EN">
+<html lang="ru">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    {# Ставим заголовок страницы через блок #}
+    <title>{% block head_title %}{% endblock %} - Курс "Методы и средства защиты информации"</title>
+
+    {# Стили, используемые в шаблонах-потомках #}
+    {% load staticfiles %}
+    <link rel="stylesheet" href="{% static "css/common.css" %}" type="text/css" media="screen">
+    <link rel="stylesheet" href="{% static "css/main.css" %}" type="text/css" media="screen">
+    <link rel="stylesheet" href="{% static "css/encryption.css" %}" type="text/css" media="screen">
+    <link rel="stylesheet" href="{% static "css/decryption.css" %}" type="text/css" media="screen">
+
+</head>
+
+<body>
+{% block body_content %}{% endblock %}
+</body>
+</html>
