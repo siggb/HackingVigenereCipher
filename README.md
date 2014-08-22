@@ -14,6 +14,20 @@ It is a web-application for the encoding, decoding & hacking Vigenere cipher. Re
 * Apache2
 * IDE PyCharm
 
+### Example Usage
+
+Step 1: ["Encoding"](https://github.com/siggb/HackingVigenereCipher/blob/master/static/images/img1.png)
+
+Step 2: ["Statistical analysing and hacking"](https://github.com/siggb/HackingVigenereCipher/blob/master/static/images/img2.png)
+
+Step 3: ["Creating Markov chain"](https://github.com/siggb/HackingVigenereCipher/blob/master/static/images/img3.png)
+
+Step 4: ["Providing Information for Markov chain"](https://github.com/siggb/HackingVigenereCipher/blob/master/static/images/img4.png)
+
+Step 5: ["Result of analysing by using trained chain"](https://github.com/siggb/HackingVigenereCipher/blob/master/static/images/img5.png)
+
+Step 5: ["Result"](https://github.com/siggb/HackingVigenereCipher/blob/master/static/images/img5.png)
+
 ### License
 
 Encoding, Decoding & Hacking Vigenere cipher is available under the MIT license.
