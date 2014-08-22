@@ -22,7 +22,7 @@ Step 2: ["Statistical analysing and hacking"](https://github.com/siggb/HackingVi
 
 Step 3: ["Creating Markov chain"](https://github.com/siggb/HackingVigenereCipher/blob/master/static/images/img3.png)
 
-Step 4: ["Providing Information for Markov chain"](https://github.com/siggb/HackingVigenereCipher/blob/master/static/images/img4.png)
+Step 4: ["Providing information for Markov chain"](https://github.com/siggb/HackingVigenereCipher/blob/master/static/images/img4.png)
 
 Step 5: ["Result of analysing"](https://github.com/siggb/HackingVigenereCipher/blob/master/static/images/img5.png) by using trained chain with ["detected key"](https://github.com/siggb/HackingVigenereCipher/blob/master/static/images/img6.png)
 
